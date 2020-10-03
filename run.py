@@ -425,7 +425,7 @@ if __name__ == '__main__':
 	parser.add_argument('-batch',           dest='batch_size',      default=128,    type=int,       help='Batch size')
 	parser.add_argument('-gamma',		type=float,             default=40.0,			help='Margin')
 	parser.add_argument('-gpu',		type=str,               default='0',			help='Set GPU Ids : Eg: For CPU = -1, For Single GPU = 0')
-	parser.add_argument('-epoch',		dest='max_epochs', 	type=int,       default=5,  	help='Number of epochs')
+	parser.add_argument('-epoch',		dest='max_epochs', 	type=int,       default=20,  	help='Number of epochs')
 	parser.add_argument('-l2',		type=float,             default=0.0,			help='L2 Regularization for Optimizer')
 	parser.add_argument('-lr',		type=float,             default=0.001,			help='Starting Learning Rate')
 	parser.add_argument('-lbl_smooth',      dest='lbl_smooth',	type=float,     default=0.1,	help='Label Smoothing')
